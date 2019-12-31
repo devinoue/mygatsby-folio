@@ -25,4 +25,4 @@ jobs:
       - run: curl -L https://github.com/bep/s3deploy/releases/download/v2.2.0/s3deploy_2.2.0_Linux-64bit.tar.gz | tar xvz
       - run:
           name: deploy
-          command: ./s3deploy -source=public/ -region=ap-northeast-1 -bucket=myportfolio
+          command: ./s3deploy -source=public/ -region=ap-northeast-1 -bucket=myportfolio-s
